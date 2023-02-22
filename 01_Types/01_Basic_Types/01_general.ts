@@ -30,12 +30,6 @@ declare function create(o: object | null): void;
 create({ prop: 0 }); // OK
 create(null); // OK
 
-// 7. Enum. A set of named constants. By default, the first element has the value 0, the second element has the value 1, and so on.
-
-enum Color {Red, Green, Blue};
-
-let c: Color = Color.Green;
-
 // 8. Any. A type that can be anything. It is not recommended to use this type.
 
 let randomValue: any = 10;
